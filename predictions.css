@@ -56,7 +56,6 @@ footer {
     color: white; /* Sets the text color in the footer */
     text-align: center; /* Centers the text in the footer */
     padding: 20px; /* Adds padding around the footer content */
-    position: fixed; /* Fixes the footer at the bottom */
     width: 100%; /* Makes the footer full width */
     bottom: 0; /* Positions the footer at the bottom of the page */
 }
