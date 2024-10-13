@@ -1,71 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TFT Hub - Community</title>
-    <link rel="stylesheet" href="community.css"> <!-- Link to the community-specific stylesheet -->
+    <meta charset="UTF-8"> <!-- Character set for the document -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsive design settings -->
+    <title>TFT Hub - Community</title> <!-- Title of the page -->
+    <link rel="stylesheet" href="community.css"> <!-- Link to the community-specific CSS file -->
 </head>
 <body>
     <header>
-        <h1>TFT Community</h1> <!-- Header for the community page -->
-        <p>Join the conversation and connect with other TFT players!</p> <!-- Subheader for description -->
+        <h1>TFT Community</h1> <!-- Main heading for the community page -->
+        <p>Share your thoughts and connect with other TFT players!</p> <!-- Subheading for context -->
     </header>
 
     <nav>
-        <a href="index.html">Home</a>
-        <a href="patchnotes.html">Patch Notes</a>
-        <a href="predictions.html">Meta Predictions</a>
-        <a href="community.html">Community</a>
+        <a href="index.html">Home</a> <!-- Link to the home page -->
+        <a href="patchnotes.html">Patch Notes</a> <!-- Link to the patch notes page -->
+        <a href="predictions.html">Meta Predictions</a> <!-- Link to the meta predictions page -->
+        <a href="community.html">Community</a> <!-- Link to the community page -->
     </nav>
-    
 
     <section>
-        <h2>Community Discussions</h2> <!-- Title for community discussions -->
-        <p>Share your thoughts, strategies, and experiences with other players!</p> <!-- Description for the discussions -->
+        <h2>Community Thoughts</h2> <!-- Section heading for community thoughts -->
+        <p>Here you can post your thoughts about TFT! Feel free to share strategies, ask questions, or discuss your favorite champions.</p> <!-- Description for the community section -->
         
-        <h3>Upcoming Events</h3> <!-- Subheader for events -->
-        <ul>
-            <li>Updates every Sunday!</li> <!-- List item for event -->
-            <li>Daily Chat!</li> <!-- List item for event -->
-        </ul>
-
-        <h3>Post Your Thoughts</h3> <!-- Header for the thoughts submission form -->
+        <!-- Email hyperlink -->
+        <h3>Contact Us</h3> <!-- Subheading for contact information -->
+        <p>If you have any questions or suggestions, feel free to reach out to me at: 
+            <a href="mailto:goldenmydog71@gmail.com">goldenmydog71@gmail.com</a> <!-- Email hyperlink that opens the default email client -->
+        </p>
+        
+        <!-- Form to post thoughts (optional) -->
         <form id="thoughtForm"> <!-- Form for submitting thoughts -->
-            <textarea id="thoughtInput" rows="4" placeholder="Share your thoughts here..." required></textarea> <!-- Textarea for input -->
-            <br>
-            <button type="submit">Post</button> <!-- Button to submit the form -->
+            <label for="thoughtInput">Share your thought:</label><br> <!-- Label for the textarea -->
+            <textarea id="thoughtInput" rows="4" cols="50" placeholder="Type your thought here..."></textarea><br> <!-- Textarea for user input -->
+            <button type="submit">Post Thought</button> <!-- Button to submit the form -->
         </form>
-
-        <h3>Community Posts</h3> <!-- Header for displaying community posts -->
-        <div id="postsContainer"> <!-- Container for community posts -->
-            <!-- Community posts will be added here -->
-        </div>
     </section>
 
     <footer>
-        <p>&copy; 2024 TFT Hub</p> <!-- Copyright footer -->
+        <p>&copy; 2024 TFT Hub</p> <!-- Footer text -->
     </footer>
-
-    <script>
-        // JavaScript to handle the submission of thoughts
-        document.getElementById('thoughtForm').addEventListener('submit', function(event) {
-            event.preventDefault(); // Prevent the form from submitting traditionally
-
-            const thoughtInput = document.getElementById('thoughtInput'); // Get the textarea
-            const thoughtText = thoughtInput.value; // Get the value from the textarea
-
-            // Create a new post element
-            const postElement = document.createElement('div');
-            postElement.classList.add('post'); // Add a class for styling
-            postElement.textContent = thoughtText; // Set the text of the post
-
-            // Append the new post to the posts container
-            document.getElementById('postsContainer').appendChild(postElement);
-
-            // Clear the textarea after posting
-            thoughtInput.value = '';
-        });
-    </script>
 </body>
 </html>
