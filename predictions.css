@@ -1,0 +1,62 @@
+/* Styles for the Predictions Page */
+
+/* Base styles for the body element */
+body {
+    font-family: Arial, sans-serif; /* Sets the font family for the page */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+    background-color: #1e1e1e; /* Sets the background color of the page */
+    color: #f0f0f0; /* Sets the default text color */
+}
+
+/* Styles for the header */
+header {
+    background-color: #1f8ac0; /* Sets the header background color */
+    color: white; /* Sets the text color in the header */
+    padding: 40px; /* Adds padding around the header content */
+    text-align: center; /* Centers the text in the header */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* Adds a shadow effect to the header */
+}
+
+/* Styles for the navigation bar */
+nav {
+    background-color: #333; /* Sets the background color for the navigation */
+    overflow: hidden; /* Ensures the nav is cleared */
+}
+
+/* Styles for the links in the navigation bar */
+nav a {
+    float: left; /* Aligns links to the left */
+    display: block; /* Displays links as block elements */
+    color: white; /* Sets the link text color */
+    text-align: center; /* Centers the text in links */
+    padding: 16px 20px; /* Adds padding around the link text */
+    text-decoration: none; /* Removes the underline from links */
+    font-size: 1.1em; /* Sets the font size for links */
+}
+
+/* Styles for links on hover */
+nav a:hover {
+    background-color: #4A90E2; /* Changes background color when hovered */
+}
+
+/* Styles for the main content section */
+section {
+    padding: 40px; /* Adds padding inside the section */
+    margin: 20px auto; /* Centers the section and adds margin */
+    max-width: 1100px; /* Sets a maximum width for the section */
+    background-color: #2d2d2d; /* Sets the background color of the section */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* Adds a shadow effect to the section */
+    border-radius: 8px; /* Rounds the corners of the section */
+}
+
+/* Styles for the footer */
+footer {
+    background-color: #333; /* Sets the footer background color */
+    color: white; /* Sets the text color in the footer */
+    text-align: center; /* Centers the text in the footer */
+    padding: 20px; /* Adds padding around the footer content */
+    position: fixed; /* Fixes the footer at the bottom */
+    width: 100%; /* Makes the footer full width */
+    bottom: 0; /* Positions the footer at the bottom of the page */
+}

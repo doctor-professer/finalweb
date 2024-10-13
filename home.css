@@ -1,0 +1,62 @@
+/* Styles for the Home Page */
+
+/* Set the default font, margins, and background color for the body */
+body {
+    font-family: Arial, sans-serif; /* Font family for the text */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    background-color: #1e1e1e; /* Dark background color */
+    color: #f0f0f0; /* Light text color */
+}
+
+/* Styles for the header section */
+header {
+    background-color: #1f8ac0; /* Header background color */
+    color: white; /* Text color in the header */
+    padding: 40px; /* Padding around the header content */
+    text-align: center; /* Center-align the header text */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* Shadow effect for the header */
+}
+
+/* Styles for the navigation bar */
+nav {
+    background-color: #333; /* Navigation background color */
+    overflow: hidden; /* Clear floats for navigation items */
+}
+
+/* Styles for navigation links */
+nav a {
+    float: left; /* Float links to the left */
+    display: block; /* Display links as block elements */
+    color: white; /* Text color for the links */
+    text-align: center; /* Center-align text within links */
+    padding: 16px 20px; /* Padding around the link text */
+    text-decoration: none; /* Remove underline from links */
+    font-size: 1.1em; /* Font size for the links */
+}
+
+/* Hover effect for navigation links */
+nav a:hover {
+    background-color: #4A90E2; /* Change background color on hover */
+}
+
+/* Styles for main content sections */
+section {
+    padding: 40px; /* Padding around the section content */
+    margin: 20px auto; /* Center the section and add vertical margins */
+    max-width: 1100px; /* Maximum width for the section */
+    background-color: #2d2d2d; /* Dark background for the section */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* Shadow effect for the section */
+    border-radius: 8px; /* Rounded corners for the section */
+}
+
+/* Styles for the footer */
+footer {
+    background-color: #333; /* Footer background color */
+    color: white; /* Text color in the footer */
+    text-align: center; /* Center-align footer text */
+    padding: 20px; /* Padding around the footer content */
+    position: fixed; /* Fixed position at the bottom of the page */
+    width: 100%; /* Full width for the footer */
+    bottom: 0; /* Position footer at the bottom of the page */
+}

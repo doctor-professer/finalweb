@@ -1,0 +1,54 @@
+/* Styles for the Patch Notes Page */
+body {
+    font-family: Arial, sans-serif; /* Sets the font for the entire page */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+    background-color: #1e1e1e; /* Background color for the body */
+    color: #f0f0f0; /* Text color for the body */
+}
+
+header {
+    background-color: #1f8ac0; /* Background color for the header */
+    color: white; /* Text color for header content */
+    padding: 40px; /* Padding around the header */
+    text-align: center; /* Centers the text within the header */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* Adds shadow effect to the header */
+}
+
+nav {
+    background-color: #333; /* Background color for the navigation bar */
+    overflow: hidden; /* Ensures the nav elements stay within the container */
+}
+
+nav a {
+    float: left; /* Aligns links to the left */
+    display: block; /* Makes links block elements */
+    color: white; /* Text color for navigation links */
+    text-align: center; /* Centers text within the links */
+    padding: 16px 20px; /* Padding around navigation links */
+    text-decoration: none; /* Removes underline from links */
+    font-size: 1.1em; /* Font size for navigation links */
+}
+
+nav a:hover {
+    background-color: #4A90E2; /* Background color for links on hover */
+}
+
+section {
+    padding: 40px; /* Padding inside the section */
+    margin: 20px auto; /* Center the section with top/bottom margin */
+    max-width: 1100px; /* Maximum width for the section */
+    background-color: #2d2d2d; /* Background color for the section */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* Shadow effect for the section */
+    border-radius: 8px; /* Rounded corners for the section */
+}
+
+footer {
+    background-color: #333; /* Background color for the footer */
+    color: white; /* Text color for footer content */
+    text-align: center; /* Centers text within the footer */
+    padding: 20px; /* Padding inside the footer */
+    position: fixed; /* Fixes footer to the bottom of the page */
+    width: 100%; /* Full width for the footer */
+    bottom: 0; /* Positions the footer at the bottom */
+}
